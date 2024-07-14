@@ -219,7 +219,7 @@ background-color: #404BBF;
 .icon-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .icon-link {
@@ -230,6 +230,7 @@ background-color: #404BBF;
     justify-content: center;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover{
 background-color: #404bbf;
@@ -383,11 +384,12 @@ padding: 120px 0;
 }
 .portfolio-item{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover .portfolio-item-text{
 transform: translateY(0);
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
 .portfolio-item-wrap{
 position: relative;
@@ -466,8 +468,7 @@ color: #f4f4fd;
 .footer-icon-item {
     width: 40px;
     height: 40px;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 
 .footer-icon-link {
     display: flex;
@@ -477,6 +478,7 @@ color: #f4f4fd;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link:hover,
