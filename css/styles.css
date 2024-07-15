@@ -35,7 +35,6 @@ img{
   .header-nav{
     display:flex;
     align-items: center;
-    padding:24px 0;
   }
   .nav-list{
     display:flex;
@@ -51,16 +50,6 @@ img{
 .contacts-list{
     display: flex;
     align-items: center;
-}
-
-.header-nav{
-
-}
-
-.page-header {
-} 
-
-.header-nav {
 }
 
 .logo {
